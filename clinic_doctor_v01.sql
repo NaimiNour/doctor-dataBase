@@ -168,11 +168,7 @@ ALTER TABLE `user`
 ALTER TABLE `certificates`
   MODIFY `id_certificate` bigint(20) NOT NULL AUTO_INCREMENT;
 
---
--- AUTO_INCREMENT for table `drugs`
---
-ALTER TABLE `drugs`
-  MODIFY `id_drug` bigint(20) NOT NULL AUTO_INCREMENT;
+
 
 --
 -- AUTO_INCREMENT for table `patients`
